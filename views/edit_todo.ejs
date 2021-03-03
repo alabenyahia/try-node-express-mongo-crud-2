@@ -1,0 +1,10 @@
+<%- include('includes/_header') %>
+<h2>Edit Todo</h2>
+<form action="/<%=todos['_id']%>" method="post" id="edit-form">
+    <label for="todo">Edit Todo</label>
+    <input id="todo" name="text" type="text" value="<%=todos['text']%>">
+    <input type="submit" value="Edit">
+</form>
+
+
+<%- include('includes/_footer') %>

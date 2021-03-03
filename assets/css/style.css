@@ -1,0 +1,103 @@
+body {
+    background-color: #5902b9;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+* {
+    margin: 0;
+}
+
+main {
+    width: 65%;
+    margin: 24px auto;
+    text-align: center;
+}
+
+main h2 {
+    margin: 12px;
+    color: crimson;
+}
+
+main hr {
+    margin: 56px auto;
+    width: 80%;
+    color: crimson;
+}
+
+main form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+main form input[type='text'],  main form label {
+    width: 50%;
+    color: white;
+}
+
+main form input[type='text'] {
+    margin: 6px 0 12px 0;
+    padding: 10px 14px;
+    border: 6px solid crimson;
+    outline: none;
+    border-radius: 4px;
+    color: crimson;
+}
+
+main form input[type='submit'] {
+    border: none;
+    padding: 12px 20px;
+    color: white;
+    background-color: crimson;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+main ul {
+    width: 50%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+main ul li {
+    list-style-type: none;
+    padding: 10px 20px;
+    text-align: left;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+main ul li .todo-btns{
+    text-align: right;
+    display: inline-flex;
+    margin-left: auto;
+    justify-content: flex-end;
+}
+
+main ul li .todo-btns a {
+    color: crimson;
+}
+
+main ul li .todo-btns i {
+    border-radius: 2px;
+    background-color: white;
+    margin-left: 8px;
+    padding: 4px 8px;
+}
+
+
+main ul li:nth-of-type(odd) {
+    background-color: crimson;
+    color: white;
+}
+
+main ul li:nth-of-type(even) {
+    background-color: white;
+    color: crimson;
+}
